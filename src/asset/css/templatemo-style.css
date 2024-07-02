@@ -124,6 +124,7 @@ h6 {
 }
 figure {
   margin:0;
+  padding-top : 199px;
 }
 .opacity-no {
   opacity: 1 !important;
@@ -399,6 +400,7 @@ a#logo {
 .welcome-box {
   font-size:20px;
   line-height:1.7;
+  padding-top: 100px;
 }
 .welcome-first{
   font-size: 32px;
@@ -466,6 +468,7 @@ a#logo {
   margin-top: 80px;
   text-align:left;
   line-height:1.8;
+  padding-top: 100px;
 }
 .about-contentbox span {
   font-size: 24px;

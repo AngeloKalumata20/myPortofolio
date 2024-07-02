@@ -10,10 +10,10 @@ const Slides = () => {
                         <span className="welcome-first animate" data-animate="fadeInUp">Hello, welcome to my</span>
                         <h1 className="welcome-title animate" data-animate="fadeInUp">Website</h1>
                         <p class="animate" data-animate="fadeInUp">Ini Adalah Website Portofolio saya, saya adalah sebuah fullstack programmer dan UI/UX. saya memiliki rasa ingin Tau yang mendalam. Terima Kasih</p>
-                        <div className="scroll-down next-section animate" data-animate="fadeInUp">
+                        {/* <div className="scroll-down next-section animate" data-animate="fadeInUp">
                             <img src="images/mouse-scroll.png" alt="Mouse Scroll"/>
                             <span>Scroll Down</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -195,8 +195,8 @@ const Slides = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-8 wide-col-laptop">
                         <div className="title-block animate" data-animate="fadeInUp">
-                            <span>My Work</span>
-                            <h2>what i've done?</h2>
+                            <span>My Picture</span>
+                            <h2>Here is My Photo</h2>
                         </div>
                         <div className="gallery-section">
                             <div className="gallery-list owl-carousel">
@@ -205,24 +205,13 @@ const Slides = () => {
                                         <div className="thumb">
                                             <img src="images/item-1.jpg" alt=""/>
                                         </div>
-                                        <div className="thumb-inner animate" data-animate="fadeInUp">
-                                            <h4>templatemo is the best</h4>
-                                            <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="item animate" data-animate="fadeInUp">
-                                    <div className="portfolio-item">
-                                        <div className="thumb">
-                                            <img src="images/item-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="thumb-inner animate" data-animate="fadeInUp">
+                                        {/* <div className="thumb-inner animate" data-animate="fadeInUp">
                                             <h4>templatemo is the best</h4>
                                             <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <div className="item animate" data-animate="fadeInUp">
+                                {/* <div className="item animate" data-animate="fadeInUp">
                                     <div className="portfolio-item">
                                         <div className="thumb">
                                             <img src="images/item-3.jpg" alt=""/>
@@ -298,7 +287,7 @@ const Slides = () => {
                                             <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -306,7 +295,7 @@ const Slides = () => {
             </div>
         </div>
 
-        <div className="section animated-row" data-section="slide05">
+        {/* <div className="section animated-row" data-section="slide05">
             <div className="section-inner">
                 <div className="row justify-content-center">
                     <div className="col-md-8 wide-col-laptop">
@@ -359,7 +348,7 @@ const Slides = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="section animated-row" data-section="slide07">
             <div className="section-inner">
