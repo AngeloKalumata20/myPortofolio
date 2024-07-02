@@ -34,7 +34,7 @@ const Slides = () => {
                                         <div className="facts-list owl-carousel">
                                             <div className="item animate" data-animate="fadeInUp">
                                                 <div className="counter-box">
-                                                    <i className="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">32</span> Awards Won
+                                                    <i className="fa fa-trophy counter-icon" aria-hidden="true"></i><span class="count-number">3</span> Awards Won
                                                 </div>
                                             </div>
                                             <div className="item animate" data-animate="fadeInUp">
@@ -44,12 +44,12 @@ const Slides = () => {
                                             </div>
                                             <div className="item animate" data-animate="fadeInUp">
                                                 <div className="counter-box">
-                                                    <i className="fa fa-desktop counter-icon" aria-hidden={true}></i><span class="count-number">12</span> Working Years
+                                                    <i className="fa fa-desktop counter-icon" aria-hidden={true}></i><span class="count-number">5</span> Working Years
                                                 </div>
                                             </div>
                                             <div className="item animate" data-animate="fadeInUp">
                                                 <div className="counter-box">
-                                                    <i className="fa fa-support counter-icon" aria-hidden={true}></i><span class="count-number">6</span> Team Members
+                                                    <i className="fa fa-support counter-icon" aria-hidden={true}></i><span class="count-number">2</span> Team Members
                                                 </div>
                                             </div>
                                             <div className="item animate" data-animate="fadeInUp">
@@ -84,24 +84,24 @@ const Slides = () => {
                                     <div className="service-box">
                                         <span className="service-icon"><i class="fa fa-bookmark" aria-hidden={true}></i></span>
                                         <h3>Bootstrap Themes</h3>
-                                        <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                        <p>Sebagai seorang yang mahir dalam Bootstrap, saya memiliki kemampuan yang luas dalam merancang dan mengimplementasikan antarmuka pengguna yang responsif dan estetis. Pengalaman saya dalam memanfaatkan grid system, komponen UI, serta fitur-fitur JavaScript yang disediakan oleh Bootstrap memungkinkan saya untuk membangun aplikasi web dengan kecepatan dan efisiensi tinggi. </p>
                                     </div>
                                 </div>
                                 <div className="item animate" data-animate="fadeInUp">
                                     <div className="service-box">
                                         <span className="service-icon"><i class="fa fa-cloud" aria-hidden={true}></i></span>
                                         <h3>HTML5 Coding</h3>
-                                        <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                        <p>Sebagai seorang yang ahli dalam HTML5, saya memiliki kemampuan yang mendalam dalam memanfaatkan fitur-fitur terbaru dan standar HTML untuk membangun tata letak halaman web yang modern dan responsif. Saya terampil dalam menggunakan elemen-elemen semantik seperti header, nav, section, article, footer, dan lainnya untuk meningkatkan struktur dan aksesibilitas konten.</p>
                                     </div>
                                 </div>
                                 <div className="item animate" data-animate="fadeInUp">
                                     <div className="service-box">
                                         <span className="service-icon"><i class="fa fa-desktop" aria-hidden={true}></i></span>
                                         <h3>Fully Responsive</h3>
-                                        <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                        <p>Sebagai seorang yang bertanggung jawab, saya selalu memprioritaskan kualitas dan keandalan dalam setiap aspek pekerjaan saya. Saya mengelola proyek dengan teliti, memastikan bahwa setiap tahap dari perencanaan hingga implementasi dilakukan sesuai dengan standar yang telah ditetapkan.</p>
                                     </div>
                                 </div>
-                                <div className="item animate" data-animate="fadeInUp">
+                                {/* <div className="item animate" data-animate="fadeInUp">
                                     <div className="service-box">
                                         <span className="service-icon"><i class="fa fa-mobile" aria-hidden={true}></i></span>
                                         <h3>Mobile Ready</h3>
@@ -135,7 +135,7 @@ const Slides = () => {
                                         <h3>Always Monitoring</h3>
                                         <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -363,13 +363,13 @@ const Slides = () => {
                                 <div className="col-md-6 animate" data-animate="fadeInUp">
                                     <div className="contact-box">
                                         <div className="contact-row">
-                                            <i className="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
+                                            <i className="fa fa-map-marker"></i> Sulawesi Utara, Manado, Paal Dua
                                         </div>
                                         <div className="contact-row">
-                                            <i className="fa fa-phone"></i> 090 080 0210
+                                            <i className="fa fa-phone"></i> 0853 9730 3080
                                         </div>
                                         <div className="contact-row">
-                                            <i className="fa fa-envelope"></i> info@company.co
+                                            <i className="fa fa-envelope"></i> s22110195@student.unklab.ac.id
                                         </div>
                                     </div>
                                 </div>
