@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import HomePage from "./componen/pages/HomePage";
+import "./asset/css/bootstrap.min.css"
+import "./asset/css/flex-slider.css"
+import "./asset/css/font-awesome.css"
+import "./asset/css/fullpage.min.css"
+import "./asset/css/responsive.css"
+import "./asset/css/animate.css"
+import "./asset/css/templatemo-style.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return(
+    <HomePage/>
+  )
 }
 
-export default App;
+export default App
