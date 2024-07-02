@@ -54,7 +54,7 @@ const Slides = () => {
                                             </div>
                                             <div className="item animate" data-animate="fadeInUp">
                                                 <div className="counter-box">
-                                                    <i className="fa fa-certificate counter-icon" aria-hidden={true}></i><span class="count-number">10</span> Certificates
+                                                    <i className="fa fa-certificate counter-icon" aria-hidden={true}></i><span class="count-number">2</span> Certificates
                                                 </div>
                                             </div>
                                         </div>
